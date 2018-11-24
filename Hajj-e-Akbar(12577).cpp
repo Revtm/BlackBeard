@@ -2,14 +2,11 @@
 using namespace std;
 
 int main(){
-    int i = 1;
-    string h ;
+    int i = 0;
 
-    cin >> h;
-    for(h ; h != "*" ; cin >> h){
+    for(string h ; h != "*" ; cin >> h){
         if(h == "Hajj") cout << "Case " << i << ":" << " Hajj-e-Akbar" << endl;
         else if(h == "Umrah") cout << "Case " << i << ":" << " Hajj-e-Asghar" << endl;
-
         i++;
     }
 
